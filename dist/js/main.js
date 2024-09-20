@@ -27,6 +27,7 @@ function toggleMenu() {
     menuBranding.classList.remove('show');
     navItems.forEach(item => item.classList.remove('show'));
 
+    
     // Set Menu State
     showMenu = false;
   }
